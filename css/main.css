@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-image: url(../img/train.jpg);
 }
 
 .wrapper {
@@ -24,12 +24,34 @@
 
 }
 
+.logo {
+    text-align: center;
+    background-color: #ffffd9;
+    padding-top: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.col {
+
+    background-color: white;
+    text-align: center;
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
 .dati-input {
     display: flex;
 }
 
 .title {
     flex-basis: 20%;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
 }
 
 .show {
@@ -42,3 +64,16 @@
     opacity: 0;
 }
 
+.offerta {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.btn {
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 5px;
+}
