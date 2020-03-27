@@ -1,8 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+}
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.wrapper {
+    min-width: 1170px;
+    max-width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dati-input {
+    display: flex;
+}
+
+.title {
+    flex-basis: 20%;
+}
 
 .show {
     opacity: 1;
 }
-
+.flex {
+    display: flex;
+}
 .hidden {
     opacity: 0;
 }
+
